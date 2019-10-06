@@ -18,3 +18,18 @@ placeOrder.prototype.final = function () {
 placeOrder.prototype.totalOder = function () {
     return parseInt(this.pizzaSize) + parseInt(this.sauceSize) + parseInt(this.crustSize) + parseInt(this.toppingsSize);
   };
+
+  //USER INTERFACE
+
+$(document).ready(function () {
+    $("#pob").click(function () {
+      $("#mySection").submit(function (event) {
+        event.preventDefault();
+        var sizy = $('#customSize').val();
+        var sauce = $('#customSauce').val();
+        var crust = $('#customCrust').val();
+        var toppingsArray = [];
+        $("input[name=foo]:checked").each(function () {
+          toppingsArray.push($(this).val());
+        });
+  
