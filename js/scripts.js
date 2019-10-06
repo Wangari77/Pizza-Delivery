@@ -32,4 +32,10 @@ $(document).ready(function () {
         $("input[name=foo]:checked").each(function () {
           toppingsArray.push($(this).val());
         });
-  
+        var newPizzaOrder = new placeOrder(sizy, sauce, crust, toppingsArray);
+        $("#sumofOrder").append("<li>" + newPizzaOrder.final() + "</li>");
+        // append total order
+        $("#total").append("<p>" + newPizzaOrder.totalOder() + "</p>");
+        // Send alert to user
+        alert(`If the order is to be delivered,the delivery cost will be ${newPizzaOrder.totalOder()}. Your order will be delivered to your location!`);
+      });  
