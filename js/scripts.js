@@ -44,7 +44,6 @@ $(document).ready(function () {
       if ($(this).is(':checked')) {
         document.getElementById('userData').style.display = "block";
       } else {
-        console.log("lol")
       }
     });
 });
