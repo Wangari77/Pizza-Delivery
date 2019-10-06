@@ -1,8 +1,8 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+# Pizza Delivery App.
+#### This app enables users to make pizza orders from their devices., 5/10/2019.
+#### Mwangi Phyllis Wangari
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+The app comes with convinience as it allows customers to order pizza from where they are and informs them of the amount to be charged for the pizza. THe customer also has an option to either pick up the pizza or get it delivered at a fee. 
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
