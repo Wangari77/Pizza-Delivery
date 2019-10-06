@@ -11,3 +11,7 @@ function placeOrder(size, sauce, crust, toppings) {
     this.crustSize = crust;
     this.toppingsSize = addToppings;
 };  
+
+placeOrder.prototype.final = function () {
+    return "pizzaSize: " + this.pizzaSize + ", sauce: " + this.sauceSize + ", crust: " + this.crustSize + ", toppings: " + this.toppingsSize;
+  };
