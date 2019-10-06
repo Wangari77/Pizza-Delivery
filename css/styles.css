@@ -29,6 +29,13 @@ h1 {
   } 
 
 #place {
+    text-decoration: underline;   
+}
+
+h2,h3 {
     text-decoration: underline;
-    
+}
+
+button {
+    background-color: brown;
 }
