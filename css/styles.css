@@ -11,3 +11,10 @@ h1 {
     background-color: white;
     border-radius: 65%;
 }
+
+.boxing{
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px grey;
+    background-color:rgba(40, 132, 218, 0.685);
+    border-radius: 30px;
+}
