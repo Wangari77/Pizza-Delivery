@@ -39,3 +39,10 @@ $(document).ready(function () {
         // Send alert to user
         alert(`If the order is to be delivered,the delivery cost will be ${newPizzaOrder.totalOder()}. Your order will be delivered to your location!`);
       });  
+    });
+    $("input[id=deliver]").change(function () {
+      if ($(this).is(':checked')) {
+        document.getElementById('userData').style.display = "block";
+      } else {
+        console.log("lol")
+      }
