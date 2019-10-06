@@ -67,7 +67,7 @@
                         <div class="toppings">
                             <h2>Toppings</h2>
                             <input type="checkbox" name="foo" value="80" id="mushroom">Mushrooms 80
-                            <input type="checkbox" name="foo"  value="100" id="bacon">Bacon 100
+                            <input type="checkbox" name="foo" value="100" id="bacon">Bacon 100
                             <input type="checkbox" name="foo" value="150" id="sausages">Sausages 150
                             <input type="checkbox" name="foo" value="200" id="pepperoni">Pepperoni 200
                         </div>
@@ -76,54 +76,54 @@
             </div><br>
             <div>
                 <h2>Pick a choice!</h2>
-                </div>
-                <form novalidate>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h4>Customer Pickup</h4>
-                            <input type="checkbox" value="" id="pickup">Pickup Done.
-                        </div>
-                        <div class="col-md-6" id="mySelect">
-                            <h4>Customer Delivery</h4>
-                            <input type="checkbox" name="checkbox" id="deliver">Deliver Order.
-                            <hr>
-                            <div class="col-md-6" id="userData" style="display:none">
-                                <label for="first-name"><b>
-                                        <h8>User Name</h8>
-                                    </b></label><br>
-                                <input type="text" placeholder="Enter User Name" name="user_name" required><br>
-                                <label for="street-address"><b>
-                                        <h5>Address</h5>
-                                    </b></label><br>
-                                <input type="text" placeholder="P.O box, code" name="address" required><br>
-                                <b>
-                                    <h5>City</h5>
-                                </b>
-                                <select>
-                                    <option>Nairobi</option>
-                                    <option>Mombasa</option>
-                                    <option>Kisumu</option>
-                                </select><br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="placeOrder">
-                            <button type="submit" value="Submit" id="pob">Place Order</button>
-                        </div>
-                    </form>
-                </section>
-                </div>
+            </div>
+            <form novalidate>
                 <div class="row">
-                    <div class="col-md-6" id="price-content">
-                        <h3>Cart Summary</h3>
-                        <p id="sumofOrder"></p>
-                        <h3 id="total">Total in Ksh</h3>
-                        <button type="button" onClick="window.location.reload(true)" id="newPIzzaOrder">New Order</button>
+                    <div class="col-md-6">
+                        <h4>Customer Pickup</h4>
+                        <input type="checkbox" value="" id="pickup">Pickup Done.
                     </div>
-                    <p id="checksum"></p>
+                    <div class="col-md-6" id="mySelect">
+                        <h4>Customer Delivery</h4>
+                        <input type="checkbox" name="checkbox" id="deliver">Deliver Order.
+                        <hr>
+                        <div class="col-md-6" id="userData" style="display:none">
+                            <label for="first-name"><b>
+                                    <h8>User Name</h8>
+                                </b></label><br>
+                            <input type="text" placeholder="Enter User Name" name="user_name" required><br>
+                            <label for="street-address"><b>
+                                    <h5>Address</h5>
+                                </b></label><br>
+                            <input type="text" placeholder="P.O box, code" name="address" required><br>
+                            <b>
+                                <h5>City</h5>
+                            </b>
+                            <select>
+                                <option>Nairobi</option>
+                                <option>Mombasa</option>
+                                <option>Kisumu</option>
+                            </select><br>
+                        </div>
+                    </div>
                 </div>
-            </center>
-            <script src="js/scripts.js"></script>
-        </body>
-        
-        </html>
+                <div class="placeOrder">
+                    <button type="submit" value="Submit" id="pob">Place Order</button>
+                </div>
+            </form>
+        </section>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="price-content">
+                <h3>Cart Summary</h3>
+                <p id="sumofOrder"></p>
+                <h3 id="total">Total in Ksh</h3>
+                <button type="button" onClick="window.location.reload(true)" id="newPIzzaOrder">New Order</button>
+            </div>
+            <p id="checksum"></p>
+        </div>
+    </center>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
