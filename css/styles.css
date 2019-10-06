@@ -27,3 +27,8 @@ h1 {
     margin: 5px 2px;
     float: right;
   } 
+
+#place {
+    text-decoration: underline;
+    
+}
