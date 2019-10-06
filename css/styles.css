@@ -18,3 +18,12 @@ h1 {
     background-color:rgba(40, 132, 218, 0.685);
     border-radius: 30px;
 }
+
+.fa { 
+    padding: 20px;
+    padding-bottom:0px;
+    font-size: 30px;
+    width: 50px;
+    margin: 5px 2px;
+    float: right;
+  } 
