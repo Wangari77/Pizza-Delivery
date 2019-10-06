@@ -46,3 +46,5 @@ $(document).ready(function () {
       } else {
         console.log("lol")
       }
+    });
+});
